@@ -3,16 +3,40 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  color: rgb(25, 29, 28);
 }
-.class {
+.search-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
-    .item {
-        width: 30%;
-        margin-bottom: 20px;
-        color: #f51515;
-    }
-
+  width: 30%;
+  margin-bottom: 20px;
+  color: #f51515;
 }
+.submit-button {
+  background-color: #28e0c2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.weather-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 30%;
+  margin-bottom: 20px;
+  color: #f51515;
+}
+.background { 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(236, 21, 208);
+}
+
